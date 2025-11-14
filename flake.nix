@@ -22,7 +22,8 @@
         in
         pkgs.mkShell {
           packages = with pkgs; [
-            pkgs.nasm
+            nasm
+            gdb
           ];
 
           shellHook = ''
