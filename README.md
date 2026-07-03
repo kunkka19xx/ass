@@ -6,6 +6,19 @@
 2. NIXOS x86-64
 3. AMD
 
+### Workflow
+
+```sh
+nix develop     # enter the shell (nasm, gdb, strace)
+make new          # create the next numbered exercise from template.asm
+make new n=hello  # or create a named one: hello.asm
+make run          # build + run the .asm you edited last
+make run f=hello  # build + run a specific exercise
+make debug f=2    # gdb, stopped at _start (si to step, info registers)
+make dump f=2     # disassemble what nasm actually produced
+make trace f=2    # strace: watch your syscalls happen
+```
+
 ### Useful resources
 
 [Syscall tbl](https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md) 

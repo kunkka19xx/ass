@@ -1,5 +1,12 @@
+# built binaries have no extension, so ignore everything...
+*
+# ...except directories and the files we actually track
+!*/
+!.gitignore
+!*.asm
+!*.md
+!Makefile
+!flake.nix
+!flake.lock
+# object files (even though *.asm is un-ignored, *.o never was)
 *.o
-*.out
-[0-9]
-[0-9][0-9]
-

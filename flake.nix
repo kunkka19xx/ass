@@ -24,6 +24,7 @@
           packages = with pkgs; [
             nasm
             gdb
+            strace
           ];
 
           shellHook = ''
