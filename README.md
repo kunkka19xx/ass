@@ -26,6 +26,6 @@ make trace f=2    # strace: watch your syscalls happen
 
 ### Task 
 
-- [ ] Learn nasm 64bit
+- [ ] Follow the [16-week course](learning-plan/README.md) in `learning-plan/` (2h/week)
 - [ ] Programming from the groundup [ref](https://download-mirror.savannah.gnu.org/releases/pgubook/ProgrammingGroundUp-1-0-booksize.pdf) 
 
